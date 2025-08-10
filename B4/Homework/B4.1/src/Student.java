@@ -10,7 +10,7 @@ public class Student {
     public void list(){
         int age = 2025 - born;
         double GPA = point_1 * 0.2 + point_2 * 0.3 + point_final * 0.5;
-        System.out.printf("Ten: %s | Tuổi: %d | Địa chỉ: %s | TX1: %.2f | TX2: %.2f | KTHP: %.2f | GPA: %.2f | Nghỉ: %d buoi\n",
+        System.out.printf("Ten: %s | Tuổi: %d | Địa chỉ: %s | TX1: %.2f | TX2: %.2f | KTHP: %.2f | GPA: %.2f | Nghỉ: %d buổi\n",
                 name, age, address, point_1, point_2, point_final,GPA, rest);
     }
 }
